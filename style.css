@@ -549,9 +549,32 @@
   @media (max-width: 1080px){
     .thread-grid{ grid-template-columns: repeat(2, 1fr); }
   }
-  @media (max-width: 560px){
-    .thread-grid{ grid-template-columns: 1fr; }
-  }
+  @media (max-width: 768px) {
+    .thread-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .thread-card {
+        min-height: 220px;
+        padding: 16px;
+    }
+
+    .thread-card h3 {
+        font-size: 18px;
+    }
+
+    .thread-card p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+}
+
+/* Small phones */
+@media (max-width: 380px) {
+    .thread-grid {
+        grid-template-columns: 1fr;
+    }
 
   .thread-card{
     display:block;
