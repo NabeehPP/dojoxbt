@@ -105,7 +105,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 // the grid layout and card interactions update automatically.
 // ============================================================
 const THREADS = [
-  { protocol: "PROTOCOL NAME — THREAD 1", title: "Replace with your thread's headline", desc: "Replace with a 1–2 sentence description of what this thread covers.", readTime: "6 min read", image: "", url: "https://x.com/dojoxbt/status/2074834297895465221?s=20" },
+  { protocol: "AION BY OORT", title: "AION by Oort: A Deep Dive", desc: "A comprehensive exploration of AION, OORT's autonomous multi-agent protocol for Web3 operations.", readTime: "3 min read", image: "images/AION.png", url: "https://x.com/dojoxbt/status/2082518772913676314?s=20" },
   { protocol: "PROTOCOL NAME — THREAD 2", title: "Replace with your thread's headline", desc: "Replace with a 1–2 sentence description of what this thread covers.", readTime: "5 min read", image: "", url: "https://x.com/dojoxbt/status/2073779640787956132?s=20" },
   { protocol: "PROTOCOL NAME — THREAD 3", title: "Replace with your thread's headline", desc: "Replace with a 1–2 sentence description of what this thread covers.", readTime: "7 min read", image: "", url: "https://x.com/dojoxbt/status/2071968429700178373?s=20" },
   { protocol: "PROTOCOL NAME — THREAD 4", title: "Replace with your thread's headline", desc: "Replace with a 1–2 sentence description of what this thread covers.", readTime: "4 min read", image: "", url: "https://x.com/dojoxbt/status/2069608379203662255?s=20" },
