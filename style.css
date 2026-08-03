@@ -94,6 +94,7 @@
     max-width: 1180px;
     margin: 0 auto;
     padding: 0 6vw;
+    overflow-x: clip;
   }
 
   .eyebrow{
@@ -446,6 +447,7 @@
   .hero-visual{
     position: relative;
     height: 420px;
+    overflow: hidden;
   }
   .hv-glow{
     position:absolute;
