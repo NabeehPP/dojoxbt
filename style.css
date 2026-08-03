@@ -384,14 +384,6 @@
     padding-bottom: 80px;
   }
 
-@media (max-width: 768px) {
-  .hero {
-    padding-top: 24px;
-    padding-bottom: 40px;
-    min-height: auto;
-  }
-}
-
   .hero-grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -514,20 +506,14 @@
     font-size: 11px;
     color: var(--gray);
   }
-
-@media (max-width: 768px) {
-
-  .hero-visual {
-    height: 320px;
-    overflow: hidden;
+  @media (max-width: 900px){
+    .hero-grid{ grid-template-columns: 1fr; }
+    .hero-visual{ height: 340px; margin-top: 20px; }
   }
-
-  .hv-card {
-    width: 220px;
-    transform: scale(.82) !important;
-    transform-origin: center;
+  @media (max-width: 640px){
+    .hero-visual{ height: 300px; }
+    .hv-card{ width: 82%; }
   }
-}
 
   /* ============================================================
      SECTION SPACING
