@@ -105,14 +105,70 @@ document.getElementById('year').textContent = new Date().getFullYear();
 // the grid layout and card interactions update automatically.
 // ============================================================
 const THREADS = [
-  { protocol: "AION BY OORT", title: "AION by Oort: A Deep Dive", desc: "A comprehensive exploration of AION, OORT's autonomous multi-agent protocol for Web3 operations.", readTime: "3 min read", image: "images/AION.png", url: "https://x.com/dojoxbt/status/2082518772913676314?s=20" },
-  { protocol: "PROTOCOL NAME — THREAD 2", title: "Replace with your thread's headline", desc: "Replace with a 1–2 sentence description of what this thread covers.", readTime: "5 min read", image: "images/fragwar.png", url: "https://x.com/dojoxbt/status/2073779640787956132?s=20" },
-  { protocol: "PROTOCOL NAME — THREAD 3", title: "Replace with your thread's headline", desc: "Replace with a 1–2 sentence description of what this thread covers.", readTime: "7 min read", image: "images/streamflow.png", url: "https://x.com/dojoxbt/status/2071968429700178373?s=20" },
-  { protocol: "PROTOCOL NAME — THREAD 4", title: "Replace with your thread's headline", desc: "Replace with a 1–2 sentence description of what this thread covers.", readTime: "4 min read", image: "images/xphere.png", url: "https://x.com/dojoxbt/status/2069608379203662255?s=20" },
-  { protocol: "PROTOCOL NAME — THREAD 5", title: "Replace with your thread's headline", desc: "Replace with a 1–2 sentence description of what this thread covers.", readTime: "6 min read", image: "images/kripicard.png", url: "https://x.com/dojoxbt/status/1952682996982804889?s=20" },
-  { protocol: "PROTOCOL NAME — THREAD 6", title: "Replace with your thread's headline", desc: "Replace with a 1–2 sentence description of what this thread covers.", readTime: "5 min read", image: "", url: "https://x.com/dojoxbt/status/1944739065758351374?s=20" },
-  { protocol: "PROTOCOL NAME — THREAD 7", title: "Replace with your thread's headline", desc: "Replace with a 1–2 sentence description of what this thread covers.", readTime: "8 min read", image: "", url: "https://x.com/dojoxbt/status/1943537170528260247?s=20" },
-  { protocol: "PROTOCOL NAME — THREAD 8", title: "Replace with your thread's headline", desc: "Replace with a 1–2 sentence description of what this thread covers.", readTime: "5 min read", image: "", url: "https://x.com/dojoxbt/status/1940734965039485214?s=20" }
+ {
+  protocol: "AION BY OORT",
+  title: "AION by OORT: A Deep Dive",
+  desc: "A comprehensive exploration of AION, OORT's autonomous multi agent protocol for Web3 operations.",
+  readTime: "6 min read",
+  image: "images/AION.png",
+  url: "https://x.com/dojoxbt/status/2082518772913676314?s=20"
+},
+{
+  protocol: "FRAGWAR",
+  title: "Collect. Exchange. Progress.",
+  desc: "A deep dive into FRAGWAR's football collectibles, player ownership, and blockchain powered reward ecosystem.",
+  readTime: "6 min read",
+  image: "images/fragwar.png",
+  url: "https://x.com/dojoxbt/status/2078126433919185022?s=46"
+},
+{
+  protocol: "STREAMFLOW",
+  title: "Automating Web3 Token Operations",
+  desc: "Explore how Streamflow simplifies token vesting, payroll, treasury, staking, airdrops, and on chain distribution.",
+  readTime: "5 min read",
+  image: "images/streamflow.png",
+  url: "https://x.com/dojoxbt/status/2077776937049829649?s=46"
+},
+{
+  protocol: "XPHERE",
+  title: "Understanding XPHERE 2.0",
+  desc: "A visual deep dive into XPHERE's dual chain architecture, ecosystem, and next generation blockchain vision.",
+  readTime: "7 min read",
+  image: "images/xphere.png",
+  url: "https://x.com/dojoxbt/status/2074834297895465221?s=46"
+},
+{
+  protocol: "KRIPICARD",
+  title: "Bridging Crypto and Everyday Payments",
+  desc: "Discover how KripiCard connects digital assets with real world spending through practical payment infrastructure.",
+  readTime: "4 min read",
+  image: "images/kripicard.png",
+  url: "https://x.com/dojoxbt/status/2071968429700178373?s=46"
+},
+{
+  protocol: "COMING SOON",
+  title: "Next Deep Dive",
+  desc: "Another long form protocol breakdown exploring technology, tokenomics, ecosystem design, and real world utility.",
+  readTime: "5 min read",
+  image: "",
+  url: "https://x.com/dojoxbt/status/1944739065758351374?s=20"
+},
+{
+  protocol: "COMING SOON",
+  title: "Next Deep Dive",
+  desc: "An upcoming research thread breaking down another promising Web3 protocol from first principles.",
+  readTime: "8 min read",
+  image: "",
+  url: "https://x.com/dojoxbt/status/1943537170528260247?s=20"
+},
+{
+  protocol: "COMING SOON",
+  title: "Next Deep Dive",
+  desc: "A future visual guide covering protocol architecture, ecosystem design, and practical use cases.",
+  readTime: "5 min read",
+  image: "",
+  url: "https://x.com/dojoxbt/status/1940734965039485214?s=20"
+}
 ];
 
 // A small rotating set of quiet geometric line-art marks used as the
