@@ -866,27 +866,6 @@
     margin-top: 14px;
   }
 
-  /* ============================================================
-     QUOTE
-     ============================================================ */
-  .quote-block{
-    padding: 60px 0;
-  }
-  .quote-block blockquote{
-    font-family:'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: -0.01em;
-    font-size: clamp(28px, 4vw, 48px);
-    line-height: 1.3;
-    margin:0;
-    max-width: 760px;
-  }
-  .quote-block .qmark{
-    color: var(--gold);
-    font-size: 0.7em;
-    vertical-align: top;
-  }
 
   /* ============================================================
      CONTACT
@@ -894,6 +873,7 @@
   .contact{
     text-align:center;
     padding-top: 60px;
+    padding-bottom: 60px;  
   }
   .contact-line{
     font-family:'Inter', sans-serif;
