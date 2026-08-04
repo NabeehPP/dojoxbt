@@ -448,6 +448,8 @@
     position: relative;
     height: 420px;
     overflow: hidden;
+    width: 100%;
+    max-width: 100%;
   }
   .hv-glow{
     position:absolute;
@@ -512,7 +514,7 @@
   }
   @media (max-width: 640px){
     .hero-visual{ height: 300px; }
-    .hv-card{ width: 82%; }
+    .hv-card{ width: min(90vw, 340px); }
   }
 
   /* ============================================================
