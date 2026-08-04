@@ -447,7 +447,7 @@
   .hero-visual{
     position: relative;
     height: 420px;
-    overflow: hidden;
+    overflow: visible;
     width: 100%;
     max-width: 100%;
   }
